@@ -74,7 +74,7 @@ export default function App() {
     path === "start"
       ? "A tiny investigation conducted with extreme scientific seriousness."
       : path === "yes"
-      ? "Please confirm. Requesting legal clarity here hehehe."
+      ? "Please confirm. Requesting legal clarity from my lawyer."
       : path === "no"
       ? "Interesting answer. The committee would like to appeal this decision."
       : "You said yes enough times for this to become legally cute.";
