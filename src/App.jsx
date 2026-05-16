@@ -138,7 +138,7 @@ export default function App() {
                     <CalendarHeart size={46} />
                   </motion.div>
 
-                  <h1>{path === "start" ? "Would you like to go on a date with me?" : title}</h1>
+                  <h1>{path === "start" ? "Would you like to come to Italy with me?" : title}</h1>
                   <p className="subtitle">{subtitle}</p>
 
                   <div className="buttons">
