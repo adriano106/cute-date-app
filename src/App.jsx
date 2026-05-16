@@ -4,10 +4,10 @@ import { Heart, Sparkles, PartyPopper, Coffee, CalendarHeart } from "lucide-reac
 
 const yesConfirmations = [
   "Wait wait wait... are you REALLY sure? 😏",
-  "Like... emotionally, spiritually, romantically sure? 💅",
-  "Final answer? No pressure, just my entire ego on the line 😌",
+  "Like... emotionally sure? 💅",
+  "Final answer? No pressure, if you say no this app could auto-destroy 😌",
   "Okay but imagine: cute outfit, good food, dangerous eye contact. Still yes? 👀",
-  "Last checkpoint before destiny unlocks ✨"
+  "Last checkpoint before the adventure unlocks ✨"
 ];
 
 const noConfirmations = [
@@ -72,9 +72,9 @@ export default function App() {
 
   const subtitle =
     path === "start"
-      ? "A tiny romantic investigation conducted with extreme scientific seriousness."
+      ? "A tiny investigation conducted with extreme scientific seriousness."
       : path === "yes"
-      ? "Please confirm. The butterflies are requesting legal clarity."
+      ? "Please confirm. Requesting legal clarity here hehehe."
       : path === "no"
       ? "Interesting answer. The committee would like to appeal this decision."
       : "You said yes enough times for this to become legally cute.";
