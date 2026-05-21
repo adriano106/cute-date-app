@@ -4,7 +4,7 @@ import { Heart, Sparkles, PartyPopper, Coffee, CalendarHeart } from "lucide-reac
 
 const yesConfirmations = [
   "Wait wait wait... are you REALLY sure? 😏",
-  "Like... emotionally sure? 💅",
+  "Like... emotionally and spiritually sure? 💅",
   "Final answer? No pressure, if you say no this app could auto-destroy 😌",
   "Okay but imagine: cute outfit, good food, dangerous eye contact. Still yes? 👀",
   "Last checkpoint before the adventure unlocks ✨"
